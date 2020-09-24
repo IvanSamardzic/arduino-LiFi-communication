@@ -6,8 +6,4 @@ the void setup section. They are connected to D8 and D13 pins. Sync pin is also 
 defined with the speed 9600 bits per second. While there is no connection, the system will wait forever. When serial communication is established, transmitter will write its first 
 message to the serial monitor.
 
-In loop section, the system is checking wheater the buffer is empty, we read the data from serial monitor and store it in inChar variable. inChar variable will be checked if it is not 
-digit, if it is, then it will be added to the string defined as global
-
-
 LiFi Receiver
